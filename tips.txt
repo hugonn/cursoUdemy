@@ -1,0 +1,16 @@
+--------- Curso Udemy ---------------
+
+	- Tag <header> auxilia nos mecanismos de busca do google
+	- box-sizing : border-box  -- evitar problemas de pontas nos css
+    - *{} pega todas as tags no css
+    - Flat colors <----------------------------------------------------
+    - document.querySelector ---> seleciona alguem dentro do document 
+        - para id usa # document.querySelector("#id").addEventListener("click",function(){  codigo  });
+        - para recuperar um valor usa-se document.querySelector("#id");
+        
+    - <form> formulario em html5
+    - classe form-control do bootstrap deixa os formularios ajustados
+    - GET mostra os dados pela url do navegador
+    - campo type = range é novo no html 
+    - tag <progress> e <meter> para animar barras 
+    - tag datalist "sugestao de formularios"
