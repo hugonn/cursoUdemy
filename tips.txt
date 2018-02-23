@@ -14,3 +14,6 @@
     - campo type = range é novo no html 
     - tag <progress> e <meter> para animar barras 
     - tag datalist "sugestao de formularios"
+    - index.html ou default.html são utilizados para que o servidor encontre os arquivos iniciais para abrir
+    - Container serve para centralizar o conteúdo
+    - Sprite serve para aglomerar imagens e nao pesar na requisição para o servidor
