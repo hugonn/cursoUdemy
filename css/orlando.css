@@ -5,7 +5,9 @@
 header{
     width:100%;
     height:150px;
-    background-color: #5E299A;
+    background-color: rgba(94,41,154,.8);
+    z-index: 2;
+    position: relative;
     
 }
 
@@ -23,12 +25,12 @@ header .header-black li{
     background-image: url("../img/clubs.png");
     background-repeat: no-repeat;
     display: inline-block;
-    margin:4px 8px;
+    margin: 2px 4px;
 }
 
 
 header .header-black li.club-01 {
-	background-position: 0px 0px;
+	background-position: -0px 0px;
 }
 header .header-black li.club-02 {
 	background-position: -48px 0px;
@@ -110,5 +112,62 @@ header .header-black li a{
 
 header #logotipo{
     position: absolute;
-    top:-30px;
+    top:-20px;
 }
+
+#menu{
+    display: block;
+    margin: 26px;
+    margin-right: 200px;
+}
+
+#menu li{
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+
+}
+
+#menu li a{
+    color: white;
+    padding: 10px 26px;
+}
+
+.input-group input{
+    background-color: #5C2D90;
+    width: 182px;
+    border: none;
+    font-family: 'Pacifico', cursive;
+    height:30px;
+    color: white;
+
+}
+
+#menu li.search button{
+    background: none;
+    border: none;
+}
+#menu li.search button i{
+    font-size: 14px;
+    color:rgba(255,255, 255, .5);
+    position: absolute;
+    right: 3px;
+    top:7px;
+}
+
+  ::-webkit-input-placeholder {
+              font-size: 12px;
+               position: relative;
+               left:26px;
+            }
+
+#banner{
+    width:100%;
+    height:728px;
+    position: relative;
+    background: url("../img/banner.jpg") no-repeat;
+    top:-110px;
+    background-position: 0px -110px;
+    
+}
+
+

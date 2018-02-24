@@ -17,3 +17,20 @@
     - index.html ou default.html são utilizados para que o servidor encontre os arquivos iniciais para abrir
     - Container serve para centralizar o conteúdo
     - Sprite serve para aglomerar imagens e nao pesar na requisição para o servidor
+    - Certos elementos no css tu precisa mexer diretamente no "motor-css" do browser, pra isso tem que ativer o webkit de cada browser: exemplo
+        
+            ::-webkit-input-placeholder {
+               color: red;
+            }
+
+            :-moz-placeholder { /* Firefox 18- */
+               color: red;  
+            }
+
+            ::-moz-placeholder {  /* Firefox 19+ */
+               color: red;  
+            }
+
+            :-ms-input-placeholder {  
+               color: red;  
+            }
