@@ -18,6 +18,7 @@
     - Container serve para centralizar o conteúdo
     - Sprite serve para aglomerar imagens e nao pesar na requisição para o servidor
     - Certos elementos no css tu precisa mexer diretamente no "motor-css" do browser, pra isso tem que ativer o webkit de cada browser: exemplo
+    - no bootstrap, classe ROW e Float-right juntas BUGAM
         
             ::-webkit-input-placeholder {
                color: red;
