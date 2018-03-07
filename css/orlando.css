@@ -456,3 +456,7 @@ footer .list-socials i{
     font-size: 32px;
     display: block;
 }
+
+video{
+    width:60%;
+}
